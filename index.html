@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset='utf-8' />
+    <meta http-equiv="X-UA-Compatible" content="chrome=1" />
+    <meta name="description" content="P2pool : buffalocoin p2pool" />
+
+    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
+
+    <title>P2pool</title>
+  </head>
+
+  <body>
+
+    <!-- HEADER -->
+    <div id="header_wrap" class="outer">
+        <header class="inner">
+          <a id="forkme_banner" href="https://github.com/buffalocoin/p2pool">View on GitHub</a>
+
+          <h1 id="project_title">P2pool</h1>
+          <h2 id="project_tagline">buffalocoin p2pool</h2>
+
+            <section id="downloads">
+              <a class="zip_download_link" href="https://github.com/buffalocoin/p2pool/zipball/master">Download this project as a .zip file</a>
+              <a class="tar_download_link" href="https://github.com/buffalocoin/p2pool/tarball/master">Download this project as a tar.gz file</a>
+            </section>
+        </header>
+    </div>
+
+    <!-- MAIN CONTENT -->
+    <div id="main_content_wrap" class="outer">
+      <section id="main_content" class="inner">
+        <h2>
+<a name="requirements" class="anchor" href="#requirements"><span class="octicon octicon-link"></span></a>Requirements:</h2>
+
+<p>Generic:</p>
+
+<ul>
+<li>Bitcoin &gt;=0.8.5</li>
+<li>Python &gt;=2.6</li>
+<li>Twisted &gt;=10.0.0</li>
+<li>python-argparse (for Python =2.6)</li>
+</ul><p>Linux:</p>
+
+<ul>
+<li>sudo apt-get install python-zope.interface python-twisted python-twisted-web</li>
+<li>sudo apt-get install python-argparse # if on Python 2.6</li>
+</ul><p>Windows:</p>
+
+<ul>
+<li>Install Python 2.7: <a href="http://www.python.org/getit/">http://www.python.org/getit/</a>
+</li>
+<li>Install Twisted: <a href="http://twistedmatrix.com/trac/wiki/Downloads">http://twistedmatrix.com/trac/wiki/Downloads</a>
+</li>
+<li>Install Zope.Interface: <a href="http://pypi.python.org/pypi/zope.interface/3.8.0">http://pypi.python.org/pypi/zope.interface/3.8.0</a>
+</li>
+<li>Install python win32 api: <a href="http://sourceforge.net/projects/pywin32/files/pywin32/Build%20218/">http://sourceforge.net/projects/pywin32/files/pywin32/Build%20218/</a>
+</li>
+<li>Install python win32 api wmi wrapper: <a href="https://pypi.python.org/pypi/WMI/#downloads">https://pypi.python.org/pypi/WMI/#downloads</a>
+</li>
+<li>Unzip the files into C:\Python27\Lib\site-packages</li>
+</ul><h2>
+<a name="running-p2pool" class="anchor" href="#running-p2pool"><span class="octicon octicon-link"></span></a>Running P2Pool:</h2>
+
+<p>Run P2Pool with the "--net buffalocoin" option.
+Run your miner program, connecting to 127.0.0.1 on port 8985.
+Forward port 29985 to the host running P2Pool.</p>
+
+<p>Buffalocoin's use of ports 25085 and 25086. To avoid problems, add these lines to buffalocoin.conf
+and restart litecoind:</p>
+
+<pre><code>rpcport=25086
+port=25085
+</code></pre>
+
+<h2>
+<a name="donations-towards-further-development" class="anchor" href="#donations-towards-further-development"><span class="octicon octicon-link"></span></a>Donations towards further development:</h2>
+
+<pre><code>BJG379oBv9cn94cdz85E9K5ejRhrHcvKgs
+</code></pre>
+
+<h2>
+<a name="sponsors" class="anchor" href="#sponsors"><span class="octicon octicon-link"></span></a>Sponsors:</h2>
+
+<p>Thanks to:</p>
+
+<ul>
+<li>The Bitcoin Foundation for its generous support of P2Pool</li>
+<li>The Litecoin Project for its generous donations to P2Pool</li>
+</ul>
+      </section>
+    </div>
+
+    <!-- FOOTER  -->
+    <div id="footer_wrap" class="outer">
+      <footer class="inner">
+        <p class="copyright">P2pool maintained by <a href="https://github.com/buffalocoin">buffalocoin</a></p>
+        <p>Published with <a href="http://pages.github.com">GitHub Pages</a></p>
+      </footer>
+    </div>
+
+    
+
+  </body>
+</html>
